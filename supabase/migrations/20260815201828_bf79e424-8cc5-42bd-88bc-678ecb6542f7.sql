@@ -1,0 +1,1 @@
+ALTER TABLE public.pages ADD COLUMN IF NOT EXISTS content jsonb NOT NULL DEFAULT '{}'::jsonb;
